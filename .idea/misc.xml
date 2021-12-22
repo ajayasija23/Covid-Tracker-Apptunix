@@ -10,7 +10,11 @@
         <entry key="..\:/ajay/CovidTracker/app/src/main/res/layout/activity_verify_otp.xml" value="0.20416666666666666" />
         <entry key="..\:/ajay/CovidTracker/app/src/main/res/layout/fragment_dashboard.xml" value="0.20416666666666666" />
         <entry key="..\:/ajay/CovidTracker/app/src/main/res/layout/fragment_download_certificate.xml" value="0.20416666666666666" />
+        <entry key="..\:/ajay/CovidTracker/app/src/main/res/layout/fragment_sessions.xml" value="0.20416666666666666" />
         <entry key="..\:/ajay/CovidTracker/app/src/main/res/layout/fragment_vaccination_center.xml" value="0.20416666666666666" />
+        <entry key="..\:/ajay/CovidTracker/app/src/main/res/layout/fragment_vaccination_session.xml" value="0.20416666666666666" />
+        <entry key="..\:/ajay/CovidTracker/app/src/main/res/layout/item_session.xml" value="0.20416666666666666" />
+        <entry key="..\:/ajay/CovidTracker/app/src/main/res/layout/item_slot.xml" value="0.20416666666666666" />
         <entry key="..\:/ajay/CovidTracker/app/src/main/res/layout/layout_progressbar.xml" value="0.20416666666666666" />
       </map>
     </option>

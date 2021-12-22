@@ -1,5 +1,9 @@
 package com.app.covidtracker.model
 
+import android.os.Parcelable
+import kotlinx.android.parcel.Parcelize
+
+@Parcelize
 data class Session(
     val address: String,
     val address_l: String,
@@ -28,4 +32,4 @@ data class Session(
     val to: String,
     val vaccine: String,
     val walkin_ind: String
-)
+) : Parcelable

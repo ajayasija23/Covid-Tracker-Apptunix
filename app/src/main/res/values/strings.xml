@@ -13,7 +13,7 @@
     <string name="covid">Covid Tracker</string>
     <string name="download_vaccination_certificate">Download Vaccination Certificate</string>
     <string name="download">Download</string>
-    <string name="vaccination_session">Find Vaccination Certificate</string>
+    <string name="vaccination_session">Find Vaccination Session</string>
     <string name="submit">Submit</string>
     <string name="find_by_district">Find by District</string>
 </resources>

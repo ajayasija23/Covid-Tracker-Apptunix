@@ -26,5 +26,14 @@
         android:id="@+id/vaccinationSession"
         android:name="com.app.covidtracker.fragment.VaccinationSession"
         android:label="VaccinationSession"
-        tools:layout="@layout/fragment_vaccination_session"/>
+        tools:layout="@layout/fragment_vaccination_session">
+        <action
+            android:id="@+id/action_vaccinationSession_to_sessionListFragment"
+            app:destination="@id/sessionListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sessionListFragment"
+        android:name="com.app.covidtracker.fragment.SessionListFragment"
+        android:label="SessionListFragment"
+        tools:layout="@layout/fragment_sessions"/>
 </navigation>

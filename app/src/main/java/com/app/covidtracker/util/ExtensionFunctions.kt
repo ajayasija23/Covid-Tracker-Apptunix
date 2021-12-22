@@ -153,7 +153,7 @@ fun isOnline(context: Context): Boolean {
 
 fun Date.format(format:String):String{
     val simpleDateFormat=SimpleDateFormat(format)
-    return format.format(this)
+    return simpleDateFormat.format(this)
 }
 
 fun InputStream.saveToFile(dir: File, file: String) = use { input ->

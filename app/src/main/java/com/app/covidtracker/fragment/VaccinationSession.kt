@@ -7,6 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.AdapterView
 import androidx.fragment.app.viewModels
+import androidx.navigation.fragment.findNavController
+import com.app.covidtracker.R
 import com.app.covidtracker.databinding.FragmentVaccinationSessionBinding
 import com.app.covidtracker.model.districts.District
 import com.app.covidtracker.model.states.State
@@ -100,7 +102,9 @@ class VaccinationSession:BaseFragment() {
                 }
                 Status.SUCCESS->{
                     hideProgress()
-                    "Success".showDialog(requireContext(),null)
+                    val bundle=Bundle()
+                    bundle.putParcelable("parcel",it.data)
+                    findNavController().navigate(R.id.action_vaccinationSession_to_sessionListFragment,bundle)
                 }
                 Status.ERROR->{
                     hideProgress()
