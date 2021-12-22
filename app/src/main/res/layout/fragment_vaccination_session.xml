@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvFindSession"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/find_vaccination_session"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="?colorPrimary"
+        android:layout_marginTop="@dimen/_32sdp"
+        android:layout_marginHorizontal="@dimen/_16sdp"
+        android:textSize="@dimen/_18ssp"
+        android:gravity="center" />
+
+
+    <EditText android:id="@+id/etPin"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44sdp"
+        android:background="@drawable/border_bg"
+        android:hint="Enter Pincode"
+        android:inputType="number"
+        android:maxLength="6"
+        android:paddingStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_marginHorizontal="@dimen/_16sdp"
+        />
+
+    <Spinner android:id="@+id/spinnerState"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44sdp"
+        android:visibility="gone"
+        android:background="@drawable/border_bg"
+        android:paddingStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_marginHorizontal="@dimen/_16sdp"
+        />
+    <Spinner android:id="@+id/spinnerDistrict"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="@dimen/_44sdp"
+        android:background="@drawable/border_bg"
+        android:paddingStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginHorizontal="@dimen/_16sdp"
+        />
+
+    <TextView android:id="@+id/tvFindByDistrict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/find_by_district"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_gravity="end"
+        android:textColor="?colorPrimary"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_marginEnd="@dimen/_16sdp"
+        />
+
+    <com.google.android.material.button.MaterialButton android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/submit"
+        app:cornerRadius="@dimen/_24sdp"
+        android:layout_marginTop="@dimen/_32sdp"
+        android:layout_marginHorizontal="@dimen/_16sdp"
+        android:paddingVertical="@dimen/_12sdp"
+        />
+
+
+</LinearLayout>

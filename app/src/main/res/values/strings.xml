@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Covid Tracker</string>
+    <string name="welcome_to_the_covid_tracker_2020">Welcome to the covid tracker 2020</string>
+    <string name="enter_your_phone_no">Enter your phone no</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="verify_phone">Verify Mobile Number</string>
+    <string name="verify_msg">Enter 6 digit code sent on your mobile to confirm your mobile number</string>
+    <string name="verify">Verify</string>
+    <string name="next">Next</string>
+    <string name="find_vaccination_session">Find Vaccination Session</string>
+    <string name="find_vaccination_center">Find Vaccination Center</string>
+    <string name="download_certificate">Download Certificate</string>
+    <string name="covid">Covid Tracker</string>
+    <string name="download_vaccination_certificate">Download Vaccination Certificate</string>
+    <string name="download">Download</string>
+    <string name="vaccination_session">Find Vaccination Certificate</string>
+    <string name="submit">Submit</string>
+    <string name="find_by_district">Find by District</string>
+</resources>

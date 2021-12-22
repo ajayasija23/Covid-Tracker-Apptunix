@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.app.covidtracker.fragment.DashboardFragment"
+        android:label="DashboardFragment"
+        tools:layout="@layout/fragment_dashboard">
+        <action
+            android:id="@+id/action_dashboardFragment_to_downloadCertificate2"
+            app:destination="@id/downloadCertificate2" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_vaccinationSession"
+            app:destination="@id/vaccinationSession" />
+    </fragment>
+    <fragment
+        android:id="@+id/downloadCertificate2"
+        android:name="com.app.covidtracker.fragment.DownloadCertificate"
+        android:label="DownloadCertificate"
+        tools:layout="@layout/fragment_download_certificate"/>
+    <fragment
+        android:id="@+id/vaccinationSession"
+        android:name="com.app.covidtracker.fragment.VaccinationSession"
+        android:label="VaccinationSession"
+        tools:layout="@layout/fragment_vaccination_session"/>
+</navigation>

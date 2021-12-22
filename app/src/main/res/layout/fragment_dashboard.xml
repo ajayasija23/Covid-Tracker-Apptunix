@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f6f6"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView android:id="@+id/cardVaccinationSession"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_120sdp"
+        android:layout_marginHorizontal="@dimen/_16sdp"
+        app:cardCornerRadius="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/session"
+                />
+
+            <TextView android:id="@+id/tvSession"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/find_vaccination_session"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_semibold"
+                android:layout_marginTop="@dimen/_16sdp"
+                />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@+id/cardVaccinationCenter"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_120sdp"
+        android:layout_marginHorizontal="@dimen/_16sdp"
+        app:cardCornerRadius="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        app:layout_constraintTop_toBottomOf="@id/cardVaccinationSession"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/center"
+                />
+
+            <TextView android:id="@+id/tvVaccinationCenter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/find_vaccination_center"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_semibold"
+                android:layout_marginTop="@dimen/_16sdp"
+                />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@+id/downloadCertificate"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_120sdp"
+        android:layout_marginHorizontal="@dimen/_16sdp"
+        app:cardCornerRadius="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        app:layout_constraintTop_toBottomOf="@id/cardVaccinationCenter"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/certificate"
+                />
+
+            <TextView android:id="@+id/tvDownloadCertificate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/download_certificate"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_semibold"
+                android:layout_marginTop="@dimen/_16sdp"
+                />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
